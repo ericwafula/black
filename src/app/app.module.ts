@@ -14,6 +14,7 @@ import { AlertModalComponent } from './alert-modal/alert-modal.component';
 import { MyAlertsComponent } from './my-alerts/my-alerts.component';
 import { EditAccountsComponent } from './edit-accounts/edit-accounts.component';
 import { HelpComponent } from './help/help.component';
+import { LandingPageHeaderComponent } from './landing-page-header/landing-page-header.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HelpComponent } from './help/help.component';
     AlertModalComponent,
     MyAlertsComponent,
     EditAccountsComponent,
-    HelpComponent
+    HelpComponent,
+    LandingPageHeaderComponent
   ],
   imports: [
     BrowserModule,
