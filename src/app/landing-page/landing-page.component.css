@@ -138,3 +138,68 @@
     width: 800px;
     margin-bottom: 150px;
 }
+
+/* Blackout section */
+.blackout-section{
+    padding-left: 170px;
+    padding-right: 170px;
+    margin-bottom: 150px;
+}
+
+#blackout-heading{
+    color: #F1CE6C;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.blackout-text{
+    font-size: 24px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+/* blackout section image */
+#push-notification{
+    width: 800px;
+    
+}
+
+/* get started button group */
+.get-started-button-group{
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-buttons{
+    width: 200px;
+    height: 55px;
+}
+
+.get-started-login{
+    border: solid #5B77D9 3px;
+    border-radius: 20px;
+    color: #5B77D9;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.get-started-login:hover{
+    background-color: #5B77D9;
+    color: white;
+}
+
+.get-started-signup{
+    background-color: #5B77D9;
+    color: white;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.get-started-signup:hover{
+    background-color: white;
+    color: #5B77D9;
+    border: solid #5B77D9 3px;
+}
