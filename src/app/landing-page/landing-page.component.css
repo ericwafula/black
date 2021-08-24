@@ -72,3 +72,29 @@
     gap: 30px;
 }
 
+/* Who section */
+.who-section{
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+/* Who section heading */
+#who-heading{
+    font-weight: bold;
+    font-size: 48px;
+    color: #F1CE6C;
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+/* Who section text */
+.who-text{
+    font-size: 24px;
+    text-align: right;
+}
+
+#who-text-2{
+    margin-top: 30px;
+}
