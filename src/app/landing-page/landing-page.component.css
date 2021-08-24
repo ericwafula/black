@@ -1,0 +1,74 @@
+/* Hero section */
+.hero-section{
+    padding-top: 150px;
+    background-color: #5B77D9;
+    padding-left: 170px;
+    padding-right: 170px;
+    overflow: hidden;
+    height: 850px;
+}
+
+/* Heading */
+#heading{
+    color: #F1CE6C;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 55px;
+}
+
+/* Sub-heading */
+#sub-heading{
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Hero text */
+#hero-text{
+    color: white;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+/* Hero login */
+.hero-login{
+    border: solid white 3px;
+    border-radius: 20px !important;
+    width: 200px;
+    height: 55px;
+    background-color: #5B77D9;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.hero-login:hover{
+    background-color: white;
+    color: #5B77D9;
+}
+
+/* Hero signup */
+.hero-sign-up{
+    background-color: white;
+    color: #5B77D9;
+    border-radius: 20px !important;
+    width: 200px;
+    height: 55px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.hero-sign-up:hover{
+    background-color: #5B77D9;
+    color: white;
+    border: solid white 3px;
+}
+
+/* Button group */
+.container-custom{
+    display: inline-flex;
+    gap: 30px;
+}
+
