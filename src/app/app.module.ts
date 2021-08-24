@@ -15,6 +15,8 @@ import { MyAlertsComponent } from './my-alerts/my-alerts.component';
 import { EditAccountsComponent } from './edit-accounts/edit-accounts.component';
 import { HelpComponent } from './help/help.component';
 import { LandingPageHeaderComponent } from './landing-page-header/landing-page-header.component';
+import { DashboardHeaderComponent } from './dashboard-header/dashboard-header.component';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { LandingPageHeaderComponent } from './landing-page-header/landing-page-h
     MyAlertsComponent,
     EditAccountsComponent,
     HelpComponent,
-    LandingPageHeaderComponent
+    LandingPageHeaderComponent,
+    DashboardHeaderComponent,
   ],
   imports: [
     BrowserModule,
