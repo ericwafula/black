@@ -2,6 +2,8 @@
     color: #252733;
     font-size: 24px;
     font-weight: bold;
+    position: relative;
+    top: 10px;
 }
 
 .header{
@@ -12,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    position: relative;
 }
 
 .user{
@@ -46,4 +49,19 @@
     border-left: #252733 solid 1px;
     padding-left: 20px;
     height: 30px;
+}
+
+#notifications{
+    position: relative;
+    top: 5px;
+    
+}
+
+#primary{
+    border-radius: 50%;
+}
+
+#icon{
+    font-size: 44px;
+    color: #C5C7CD;
 }

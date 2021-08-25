@@ -86,5 +86,16 @@
 
 .switch p{
     position: relative;
-    top: 10px;
+    top: 5px;
+    font-size: 18px;
+}
+
+#success{
+    width: 100px;
+    position: relative;
+    left: 180px;
+}
+
+.modal-body{
+    position: relative;
 }

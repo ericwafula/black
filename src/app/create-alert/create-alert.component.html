@@ -5,12 +5,14 @@
         <!-- content area -->
         <div class="col-md-10">
             <app-dashboard-header></app-dashboard-header>
-            <form action="" method="post">
+
+            <!-- Form -->
+            <form>
                 <div class="container-fluid">
                     <div class="row">
                         <!-- Add Button -->
                         <div class="col-md-3">
-                            <button class="btn add-button">
+                            <button class="btn add-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                 <img src="../../assets/plus.png" alt="plus" id="plus">
                             </button>
                             
@@ -55,6 +57,21 @@
                     </div>
                 </div>
             </form>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../../assets/1818-success-animation.gif" alt="success" id="success">
+                    </div>
+                </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

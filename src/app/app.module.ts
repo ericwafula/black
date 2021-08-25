@@ -16,7 +16,12 @@ import { EditAccountsComponent } from './edit-accounts/edit-accounts.component';
 import { HelpComponent } from './help/help.component';
 import { LandingPageHeaderComponent } from './landing-page-header/landing-page-header.component';
 import { DashboardHeaderComponent } from './dashboard-header/dashboard-header.component';
-
+import { FormsModule } from '@angular/forms';
+import { MatBadgeModule } from '@angular/material/badge';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
+import {MatIconModule} from '@angular/material/icon'
+// import {  }
 
 @NgModule({
   declarations: [
@@ -37,7 +42,12 @@ import { DashboardHeaderComponent } from './dashboard-header/dashboard-header.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    MatBadgeModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
