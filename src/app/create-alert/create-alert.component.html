@@ -1,8 +1,60 @@
 <div class="container-fluid">
     <div class="row">
+        <!-- Side Bar -->
         <div class="col-md-2"></div>
+        <!-- content area -->
         <div class="col-md-10">
             <app-dashboard-header></app-dashboard-header>
+            <form action="" method="post">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Add Button -->
+                        <div class="col-md-3">
+                            <button class="btn add-button">
+                                <img src="../../assets/plus.png" alt="plus" id="plus">
+                            </button>
+                            
+                        </div>
+                        <!-- Switch -->
+                        <div class="col-md-3">
+                            <div class="switch">
+                                <p>Off/On</p>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="switch">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row location-details">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <!-- Map -->
+                                <div class="col-md-8 left">
+
+                                </div>
+                                <!-- Zone data -->
+                                <div class="col-md-4">
+                                    <!-- Zone Alerts -->
+                                    <div class="zone">
+                                        <p>Zone Alerts</p>
+                                        <p id="zone">17</p>
+                                    </div>
+                                    <!-- Reported Fixed -->
+                                    <div class="reports">
+                                        <p>Reported Fixed</p>
+                                        <p id="reports">2</p>
+                                    </div>
+                                    <!-- KPLC Average Response Time -->
+                                    <div class="response">
+                                        <p>KPLC Average response time</p>
+                                        <p id="response">3h 8m</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </div>
