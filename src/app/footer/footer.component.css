@@ -27,3 +27,8 @@ li{
 li:hover{
     text-decoration: underline;
 }
+
+a{
+    text-decoration: none;
+    color: #5B77D9;
+}

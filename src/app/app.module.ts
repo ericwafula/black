@@ -20,7 +20,11 @@ import { FormsModule } from '@angular/forms';
 import { MatBadgeModule } from '@angular/material/badge';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
-import {MatIconModule} from '@angular/material/icon'
+import {MatIconModule} from '@angular/material/icon';
+import { SidenavComponent } from './sidenav/sidenav.component';
+import { DashHomeComponent } from './dash-home/dash-home.component';
+import { LoginHeaderComponent } from './login-header/login-header.component';
+import { SignupHeaderComponent } from './signup-header/signup-header.component';
 // import {  }
 
 @NgModule({
@@ -39,6 +43,10 @@ import {MatIconModule} from '@angular/material/icon'
     HelpComponent,
     LandingPageHeaderComponent,
     DashboardHeaderComponent,
+    SidenavComponent,
+    DashHomeComponent,
+    LoginHeaderComponent,
+    SignupHeaderComponent,
   ],
   imports: [
     BrowserModule,

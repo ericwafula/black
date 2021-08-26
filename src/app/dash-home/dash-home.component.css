@@ -1,33 +1,38 @@
+#alert{
+    padding-right: 20px;
+}
+
+#alerts-section{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.card{
+    border-radius: 8px;
+}
+
+.graph-container{
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+.cards-container{
+    padding-right: 10px;
+}
+
+.form-control{
+    margin-top: 2%;
+    width: 20%;
+    height: 200px;
+}
 .card{
     border-color: grayscale/divider;
-    width: 20rem;
-    height: 10rem;
-}
-
-.card-alerts{
-    width: 40rem;
-    background: #FFFFFF;
-    margin-left: 3%;
-    height: 20rem;
-}
-
-.card-alerts img{
-    height: 100%;
-    width: 100%;
-    border-radius: 1rem;
-}
-
+    }
 .card-body{
     gap: 2%;
 }
-
-form{
-    border: solid #DFE0EB 2px;
-    border-radius: 20px;
-}
-
 .card-title1{
-    font-family: Mulish;
+    /* font-family: Mulish; */
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
@@ -36,9 +41,8 @@ form{
     letter-spacing: 0.5px;
     color: #9FA2B4;
 }
-
 .card-text1{
-    font-family: Mulish;
+    /* font-family: Mulish; */
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
@@ -46,9 +50,8 @@ form{
     text-align: center;
     letter-spacing: 1px
 }
-
 .card-title2{
-    font-family: Mulish;
+    /* font-family: Mulish; */
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
@@ -56,9 +59,8 @@ form{
     text-align: center;
     letter-spacing: 0.5px;
 }
-
 .card-text2{
-    font-family: Mulish;
+    /* font-family: Mulish; */
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
@@ -66,9 +68,8 @@ form{
     text-align: center;
     letter-spacing: 1px
 }
-
 .card-title3{
-    font-family: Mulish;
+    /* font-family: Mulish; */
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
@@ -77,9 +78,8 @@ form{
     letter-spacing: 0.5px;
     color: #9FA2B4;
 }
-
 .card-text3{
-    font-family: Mulish;
+    /* font-family: Mulish; */
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
@@ -87,7 +87,6 @@ form{
     text-align: center;
     letter-spacing: 1px
 }
-
 .card-alerts{
     height: 336px;
     right: 576px;
@@ -97,26 +96,12 @@ form{
     padding: 0px;
     margin-top: 2rem;
 }
-
-#card-alerts{
-    border: solid #DFE0EB 2px;
-}
-
-.card-alerts img{
-    width: 100%;
-    height: 100%;
-}
-
-#card-alerts-img{
-    background-color: #F7F8FC;
-}
-
 .card-title4{
     height: 24px;
     left: 32px;
     right: 178px;
     top: 32px;
-    font-family: Mulish;
+    /* font-family: Mulish; */
     font-style: normal;
     font-weight: bold;
     font-size: 19px;
@@ -124,9 +109,8 @@ form{
     letter-spacing: 0.4px;
     color: #252733;
 }
-
 .card-text4{
-    font-family: Mulish;
+    /* font-family: Mulish; */
     margin-top:-10% ;
     margin-left: 80%;
     font-style: normal;
@@ -134,13 +118,12 @@ form{
     font-size: 14px;
     color: #5B77D9;
 }
-
 .personal{
     height: 16px;
     left: 32px;
     right: 178px;
     top: 64px;
-    font-family: Mulish;
+    /* font-family: Mulish; */
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -148,14 +131,17 @@ form{
     letter-spacing: 0.1px;
     color: #9FA2B4;
 }
-
 .list-group-flush{
-    font-family: Mulish;
+    /* font-family: Mulish; */
     font-style: normal;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 14px;
     color: #252733;
-    margin: 5%;
+}
+
+.list-group-item{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .list{
@@ -163,21 +149,31 @@ form{
     margin-left: 80%;
     color: #9FA2B4;
 }
-
+.Today{
+    height: 16px;
+    left: 32px;
+    right: 178px;
+    top: 64px;
+    /* font-family: Mulish; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+}
 .btn-warning{
     margin-top:-4% ;
     margin-left: 80%;
     font-size: 10px;
     color: #fff;
 }
-
 .btn-success{
     margin-top:-4% ;
     margin-left: 80%;
     font-size: 10px;
     color: #fff;
 }
-
 .btn1{
     margin-top:-4% ;
     margin-left: 80%;
@@ -185,39 +181,62 @@ form{
     font-size: 10px;
     border: white;
 }
-
-#save{
-    width: 150px;
-    height: 55px;
+#alert{
+    margin-top: 30px;
+}
+#card{
+    margin-top: 30px;
+}
+.Graph-details{
+    border: solid #DFE0EB 3px;
     border-radius: 8px;
+    margin-top: 30px;
+    padding: 30px;
 }
 
-input{
-    border: none !important;
-    border-bottom: solid 1px #5B77D9 !important;
-    border-radius: none !important;
-    height: 55px;
-    /* background-color: ; */
-    position: relative;
+.left{
+    border-right: #9FA2B4 solid 1px;
 }
 
-input::placeholder{
-    position: relative;
-    left: 10px;
+.zone p, .reports p, .response p, .response-time p{
+    color: #9FA2B4;
+    font-size: 18px;
+    text-align: center;
 }
 
-.form{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-#nairobi-estates{
-    background-color: #fff;
+#zone, #reports, #response, #response-time{
+    font-weight: bold;
+    font-size: 32px;
     color: black;
-    border: none !important;
-    border-bottom: solid 1px #5B77D9 !important;
-    border-radius: none !important;
-    height: 55px;
-    width: 20rem;
+}
+
+.zone, .reports, .response, .response-time{
+    padding-top: 30px;
+    margin-left: -12px;
+}
+
+.zone, .reports, .response, .response-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: #9FA2B4 solid 1px;
+}
+
+.response-time{
+    border: none;
+}
+.blackout , .last , .zones, .resolved{
+    font-size: 30px;
+    text-align: center;
+}
+.black , .Hr , .Affected , .lved{
+    color: #9FA2B4;
+    font-size: 18px;
+    text-align: center;
+}
+
+.created-alerts{
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
 }
