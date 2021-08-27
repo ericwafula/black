@@ -6,6 +6,7 @@ import { EditAccountsComponent } from './edit-accounts/edit-accounts.component';
 import { HelpComponent } from './help/help.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { LoginComponent } from './login/login.component';
+import { MyAlertsComponent } from './my-alerts/my-alerts.component';
 import { SignupComponent } from './signup/signup.component';
 
 const routes: Routes = [
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path: 'signup', component:SignupComponent},
   {path: 'dashboard', component: DashbordOverviewComponent},
   {path: 'help', component: HelpComponent},
-  {path: 'edit-account', component: EditAccountsComponent}
+  {path: 'edit-account', component: EditAccountsComponent},
+  {path: 'my-alerts', component:MyAlertsComponent}
 ];
 
 @NgModule({

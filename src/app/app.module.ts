@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
+
 import { AppComponent } from './app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { LoginComponent } from './login/login.component';
@@ -25,6 +26,7 @@ import { SidenavComponent } from './sidenav/sidenav.component';
 import { DashHomeComponent } from './dash-home/dash-home.component';
 import { LoginHeaderComponent } from './login-header/login-header.component';
 import { SignupHeaderComponent } from './signup-header/signup-header.component';
+
 // import {  }
 
 @NgModule({
@@ -55,7 +57,8 @@ import { SignupHeaderComponent } from './signup-header/signup-header.component';
     MatBadgeModule,
     BrowserAnimationsModule,
     MatSliderModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

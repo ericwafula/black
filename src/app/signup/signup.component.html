@@ -3,25 +3,26 @@
     <div class="row login-parent-container">
         <p id="login-text">Signup</p>
         <div class="login-container">
-            <form>
+            <form (ngSubmit)="createUserAccount()" #createUserForm="ngForm">
                 <div class="form-group">
-                    <mat-icon id="email-icon">account_circle</mat-icon>
-                    <input type="text" name="email" id="email" class="form-control" placeholder="First Name">
+                    <!-- <mat-icon id="email-icon">account_circle</mat-icon> -->
+                    <input type="text" #fname = "ngModel" [(ngModel)]="user.fname" required name="fname" id="fname" class="form-control" placeholder="First Name">
                 </div>
 
                 <div class="form-group">
-                    <mat-icon id="email-icon">account_circle</mat-icon>
-                    <input type="text" name="email" id="email" class="form-control" placeholder="Last Name">
+                    <!-- <mat-icon id="email-icon">account_circle</mat-icon> -->
+                    <input type="text" #lname = "ngModel" name="lname" id="lname" [(ngModel)]="user.lname" required class="form-control" placeholder="Last Name">
                 </div>
 
                 <div class="form-group">
-                    <mat-icon id="email-icon">email</mat-icon>
-                    <input type="text" name="email" id="email" class="form-control" placeholder="email Address">
+                    <!-- <mat-icon id="email-icon">email</mat-icon> -->
+                    <input type="text" #email ="ngModel" name="email" id="email" [(ngModel)]="user.email" required class="form-control" placeholder="email Address">
                 </div>
 
-                <div class="form-group" id="select-location">
+                <div class="form-group"  id="location">
                     <!-- <mat-icon id="place">place</mat-icon> -->
-                    <select name="" id="location" class="form-control">
+                    <select id="location" #location = "ngModel" name="location" [(ngModel)]="user.location" required class="form-control">
+                        <!-- <option  placeholder="select location" selected>Select Location</option> -->
                         <option value="donholm">Donholm</option>
                         <option value="buruburu">Buruburu</option>
                         <option value="dagoretti">Dagoretti</option>
@@ -40,18 +41,11 @@
                 </div>
 
                 <div class="form-group">
-                    <mat-icon id="email-icon">lock</mat-icon>
-                    <input type="text" name="password" id="password" class="form-control" placeholder="Password">
-                </div>
-
-                <div class="form-group">
                     <!-- <mat-icon id="email-icon">lock</mat-icon> -->
-                    <input type="text" name="password" id="password" class="form-control" placeholder="Re-enter Password">
-                </div>
+                    <input type="text" name="password" #password ="ngModel" [(ngModel)]="user.password" required id="password" class="form-control" placeholder="Password">
+                </div>           
 
-                
-
-                <div class="btn btn-login">Login</div>
+                <button class="btn btn-login" type="submit">Login</button>
                 <div class="container-fluid member-parent">
                     <div class="row" id="member">
                         <div class="col-md-12"> Already a member?<a href="/login"><p> Login</p> </a> </div>

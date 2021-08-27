@@ -45,7 +45,7 @@ a:hover{
     text-decoration: underline;
 }
 
-#email, #password{
+#email, #password, #fname, #lname, #re-enter-password, #location{
     margin-bottom: 30px;
     height: 55px;
 }

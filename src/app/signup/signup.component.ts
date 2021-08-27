@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { User } from '../user';
+
 
 @Component({
   selector: 'app-signup',
@@ -6,6 +8,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent implements OnInit {
+
+  user:User = new User("", "", "", "", "")
+
+
+  @Output() findUser = new EventEmitter<User>()
+  createUserAccount(){
+    this.findUser.emit(this.user)
+    // this.user = new Usere("", "", "", "", "")
+  }
 
   constructor() { }
 
